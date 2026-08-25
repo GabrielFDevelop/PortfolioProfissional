@@ -1,6 +1,7 @@
 "use client";
 
-import { Code2, Github, Linkedin, ArrowUp } from "lucide-react";
+import { Github, Linkedin, ArrowUp } from "lucide-react";
+import GDevIcon from "./GDevIcon";
 
 export default function Footer() {
   const scrollTop = () => {
@@ -14,7 +15,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-cyan-400 flex items-center justify-center">
-                <Code2 className="w-5 h-5 text-white" />
+                <GDevIcon className="w-[26px] h-[13px] text-white shrink-0" />
               </div>
               <span className="text-xl font-bold">
                 <span className="text-gradient">Gabriel</span>Dev

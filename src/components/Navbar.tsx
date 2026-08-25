@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import GDevIcon from "./GDevIcon";
 
 const navLinks = [
   { id: "inicio", label: "Início" },
@@ -55,7 +56,7 @@ export default function Navbar() {
             className="flex items-center gap-2 group"
           >
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-cyan-400 flex items-center justify-center group-hover:scale-110 transition-transform">
-              <Code2 className="w-5 h-5 text-white" />
+              <GDevIcon className="w-[35px] h-[15px] text-white shrink-0" />
             </div>
             <span className="text-xl font-bold hidden sm:block">
               <span className="text-gradient">Gabriel</span>Dev
