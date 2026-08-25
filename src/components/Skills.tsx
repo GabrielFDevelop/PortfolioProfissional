@@ -50,14 +50,14 @@ export default function Skills({ habilidades }: Props) {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto place-items-start">
           {categorias.map((categoria) => {
             const habs = habilidades.filter((h) => h.categoria === categoria);
             if (habs.length === 0) return null;
 
             return (
-              <div key={categoria} className="space-y-4">
-                <h3 className="text-sm font-semibold text-primary-400 uppercase tracking-wider mb-6">
+              <div key={categoria} className="space-y-4 w-full">
+                <h3 className="text-sm font-semibold text-primary-400 uppercase tracking-wider mb-6 text-center">
                   {categoria}
                 </h3>
                 <div className="space-y-4">
