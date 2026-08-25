@@ -6,20 +6,19 @@ public class PortfolioService : IPortfolioService
 {
     private static readonly Profile _profile = new()
     {
-        Nome = "Seu Nome",
-        Titulo = "Desenvolvedor Full Stack Sênior",
-        Descricao = "Desenvolvedor apaixonado por criar soluções tecnológicas inovadoras. Especializado em arquiteturas escaláveis com .NET, React e sistemas distribuídos.",
-        Localizacao = "São Paulo, Brasil",
-        Email = "seu.email@exemplo.com",
-        Telefone = "+55 (11) 99999-9999",
+        Nome = "Gabriel Freitas",
+        Titulo = "Desenvolvedor Front-End",
+        Descricao = "Sou Desenvolvedor Front-End com competências em NodeJS, JavaScript, Typescript, Angular, HTML5, CSS3, .NET",
+        Localizacao = "Minas Gerais, Brasil",
+        Email = "gabriel.assisfreitas@outlook.com",
+        Telefone = "+55 (38) 99932-3468",
         FotoUrl = "/profile.jpeg",
         RedesSociais = new()
         {
-            "https://github.com/seuusuario",
-            "https://linkedin.com/in/seuusuario",
-            "https://twitter.com/seuusuario"
+            "https://github.com/GabrielFDevelop",
+            "https://www.linkedin.com/in/gabriel-freitas-467b10297"
         },
-        Resumo = "Com mais de 8 anos de experiência em desenvolvimento de software, tenho atuado em projetos de grande porte nas áreas financeira, varejo e saúde. Possuo forte expertise em .NET Core, React, Node.js e arquiteturas cloud na AWS e Azure. Apaixonado por código limpo, TDD e boas práticas de engenharia."
+        Resumo = "Sou profissional de tecnologia com experiência em desenvolvimento Front-End, principalmente com Angular, React, JavaScript e TypeScript, atuando na criação de aplicações responsivas, performáticas e com foco na experiência do usuário. Ao longo da minha trajetória, também desenvolvi conhecimentos em Back-End com C#/.NET e Node.js, além de experiência com APIs REST, Git e metodologias ágeis. Atualmente, estou cursando uma pós-graduação em Inteligência Artificial e Machine Learning, buscando ampliar minha capacidade de criar soluções utilizando novas tecnologias."
     };
 
     private static readonly List<Habilidade> _habilidades = new()

@@ -18,7 +18,7 @@ const mockProfile: Profile = {
   fotoUrl: "/profile.jpeg",
   redesSociais: [
     "https://github.com/GabrielFDevelop",
-    "www.linkedin.com/in/gabriel-freitas-467b10297",
+    "https://www.linkedin.com/in/gabriel-freitas-467b10297",
   ],
   resumo:
     "Sou profissional de tecnologia com experiência em desenvolvimento Front-End, principalmente com Angular, React, JavaScript e TypeScript, atuando na criação de aplicações responsivas, performáticas e com foco na experiência do usuário. Ao longo da minha trajetória, também desenvolvi conhecimentos em Back-End com C#/.NET e Node.js, além de experiência com APIs REST, Git e metodologias ágeis. Atualmente, estou cursando uma pós-graduação em Inteligência Artificial e Machine Learning, buscando ampliar minha capacidade de criar soluções utilizando novas tecnologias.",
